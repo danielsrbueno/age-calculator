@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: hsl(0, 0%, 94%);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px 30px 180px 30px;
+    background: white;
+}
+
+header {
+    width: 700px;
+    height: 190px;
+    display: flex;
+    align-self: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 65px 0 0 50px;
+    gap: 30px;
+}
+
+.header > p {
+    font-weight: 700;
+    color:hsl(0, 1%, 44%);
+    padding: 5px;
+}
+
+.header > input {
+    width: 120px;
+    padding: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    border: 1px solid hsl(0, 0%, 86%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header > input:hover, input:focus{
+    border: 1px solid hsl(259, 100%, 65%);
+    outline: none;
+}
+
+input::-webkit-inner-spin-button {
+   display: none;
+}
+
+.erro::after {
+    content: "";
+    font-size: 0.8rem;
+    color: hsl(0, 100%, 67%);
+    margin-top: 5px;
+    position: absolute;
+}
+
+#divisor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 50px;
+    margin: 20px 0 0 0;
+}
+
+#hr {
+    background-color: hsl(0, 0%, 86%);
+    width: 700px;
+    height: 2px;
+}
+
+#button {
+    background-color: hsl(259, 100%, 65%);
+    width: 45px;
+    height: 45px;
+    padding: 23px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#button:hover {
+    background-color: hsl(0, 0%, 8%);
+}
+
+section {
+    font-weight: 800;
+    font-size: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 680px;
+    height: 350px;
+    margin-bottom: 100px;
+}
+
+section > h1 {
+    height: 100px;
+    color: hsl(0, 0%, 8%);
+}
+
+section span {
+    color: hsl(259, 100%, 65%);
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+
+footer > a {
+    text-decoration: none;
+    color: hsl(259, 100%, 65%);
+    margin-left: 4px;
+}
