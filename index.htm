@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="png/icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,800&display=swap" rel="stylesheet">
     <title>Frontend Mentor | Age calculator app</title>
 </head>
 <body>
@@ -12,26 +16,32 @@
             <div class="header">
                 <p>DIA</p>
                 <input type="number" name="" id="inpDia" placeholder="DD">
+                <div class="erro" id="erroDia"></div>
             </div>
             <div class="header">
                 <p>MÊS</p>
                 <input type="number" name="" id="inpMes" placeholder="MM">
+                <div class="erro" id="erroMes"></div>
             </div>
             <div class="header">
                 <p>ANO</p>
                 <input type="number" name="" id="inpAno" placeholder="AAAA">
-            </div>
-            <img src="img/icon-arrow.svg" alt="seta" id="button">
+                <div class="erro" id="erroAno"></div>
+            </div> 
         </header>
+        <div id="divisor">
+            <div id="hr"></div>
+            <img src="img/icon-arrow.svg" alt="seta" id="button">
+        </div>
         <section>
-            <h1 id="outAno">-- anos</h1>
-            <h1 id="outMes">-- meses</h1>
-            <h1 id="outAno">-- dias</h1>
+            <h1 id="outAno"><i><span>38</span> anos</i></h1>
+            <h1 id="outMes"><i><span>03</span> meses</i></h1>
+            <h1 id="outAno"><i><span>26</span> dias</i></h1>
         </section>
     </main>
 
-    <footer>Challenge by <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/danielsrbueno" target="_blank">Daniel Bueno</a>.</footer>
+    <footer>Challenge by <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q" target="_blank"> Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/danielsrbueno" target="_blank"> Daniel Bueno</a>.</footer>
 
 </body>
 </html>
