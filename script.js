@@ -77,22 +77,22 @@ button.addEventListener('click', ()=> {
             const resultMes = (diferencaDia % 365.25 / 30.4375);
             const resultDia = (diferencaDia % 365 % 30.4375);
 
-             if (parseInt(resultAno) > 1) {
-                  outAno.innerHTML = ("<i><span>" + parseInt(resultAno) + "</span> anos</i>");
+            if (parseInt(resultAno) > 1) {
+                outAno.innerHTML = ("<i><span>" + parseInt(resultAno) + "</span> anos</i>");
                }
-              else {
-                  outAno.innerHTML = ("<i><span>" + parseInt(resultAno) + "</span> ano</i>");
-              }
+            else {
+                outAno.innerHTML = ("<i><span>" + parseInt(resultAno) + "</span> ano</i>");
+            }
 
-              if (parseInt(resultMes) > 1) {
-                 outMes.innerHTML = ("<i><span>" + parseInt(resultMes) + "</span> meses</i>");
-             }
-             else {
-                  outMes.innerHTML = ("<i><span>" + parseInt(resultMes) + "</span> mês</i>");
-                }
+            if (parseInt(resultMes) > 1) {
+                outMes.innerHTML = ("<i><span>" + parseInt(resultMes) + "</span> meses</i>");
+            }
+            else {
+                outMes.innerHTML = ("<i><span>" + parseInt(resultMes) + "</span> mês</i>");
+            }
 
             if (parseInt(resultDia) > 1) {
-                  outDia.innerHTML = ("<i><span>" + parseInt(resultDia - 1) + "</span> dias</i>");
+                outDia.innerHTML = ("<i><span>" + parseInt(resultDia - 1) + "</span> dias</i>");
             }
             else {
                 outDia.innerHTML = ("<i><span>" + parseInt(resultDia - 1) + "</span> dia</i>");
