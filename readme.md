@@ -39,8 +39,9 @@
 - CSS: 
 - Estilização de inputs;
 - Melhor entendimento de Animations, Transitions e responsividade com @media.
-<br/>
-<br/>
+
+
+
 - JS: 
 - Tratamento e padronização de dados;
 - Melhor entendimento do return;
